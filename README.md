@@ -1,2 +1,3 @@
 # Turkce-CSS-Kutuphanesi
-Türkçe CSS Kütüphanesi. 
+Bu kütüphane ile çok fazla CSS kodu yazmadan, kolaylıkla dikkat çeken projeler oluşturabilirsiniz.
+Dökümantasyon ve nasıl kullanacağınız index.html dosyasında yazıyor.
