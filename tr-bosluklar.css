@@ -1,0 +1,162 @@
+/* Dış Boşluklar */
+.m-1{
+    margin: 10px !important;
+}
+.m-2{
+    margin: 20px !important;
+}
+.m-3{
+    margin: 30px !important;
+}
+.m-4{
+    margin: 40px !important;
+}
+.m-5{
+    margin: 50px !important;
+}
+/* Sağ'dan Dış Boşluk */
+.msag-1{
+    margin-right: 10px !important;   
+}
+.msag-2{
+    margin-right: 20px !important;   
+}
+.msag-3{
+    margin-right: 30px !important;   
+}
+.msag-4{
+    margin-right: 40px !important;   
+}
+.msag-5{
+    margin-right: 50px !important;   
+}
+/* Sol'dan Dış Boşluk */
+.msol-1{
+    margin-left: 10px !important;
+}
+.msol-2{
+    margin-left: 20px !important;
+}
+.msol-3{
+    margin-left: 30px !important;
+}
+.msol-4{
+    margin-left: 40px !important;
+}
+.msol-5{
+    margin-left: 50px !important;
+}
+/* Aşağı'dan Dış Boşluk */
+.mas-1{
+    margin-bottom: 10px !important;
+}
+.mas-2{
+    margin-bottom: 20px !important;
+}
+.mas-3{
+    margin-bottom: 30px !important;
+}
+.mas-4{
+    margin-bottom: 40px !important;
+}
+.mas-5{
+    margin-bottom: 50px !important;
+}
+/* Yukarı'dan Dış Boşluk */
+.myu-1{
+    margin-top: 10px !important;
+}
+.myu-2{
+    margin-top: 20px !important;
+}
+.myu-3{
+    margin-top: 30px !important;
+}
+.myu-4{
+    margin-top: 40px !important;
+}
+.myu-5{
+    margin-top: 50px !important;
+}
+
+/* İç Boşluklar */
+.p-1{
+    padding: 10px !important;
+}
+.p-2{
+    padding: 20px !important;
+}
+.p-3{
+    padding: 30px !important;
+}
+.p-4{
+    padding: 40px !important;
+}
+.p-5{
+    padding: 50px !important;
+}
+
+/* Sağ'dan İç Boşluk */
+.psag-1{
+    padding-right: 10px !important;
+}
+.psag-2{
+    padding-right: 20px !important;
+}
+.psag-3{
+    padding-right: 30px !important;
+}
+.psag-4{
+    padding-right: 40px !important;
+}
+.psag-5{
+    padding-right: 50px !important;
+}
+/* Sol'dan İç Boşluk */
+.psol-1{
+    padding-left: 10px !important;
+}
+.psol-2{
+    padding-left: 20px !important;
+}
+.psol-3{
+    padding-left: 30px !important;
+}
+.psol-4{
+    padding-left: 40px !important;
+}
+.psol-5{
+    padding-left: 50px !important;
+}
+/* Yukarı'dan İç Boşluk */
+.pyu-1{
+    padding-top: 10px !important;
+}
+.pyu-2{
+    padding-top: 20px !important;
+}
+.pyu-3{
+    padding-top: 30px !important;
+}
+.pyu-4{
+    padding-top: 40px !important;
+}
+.pyu-5{
+    padding-top: 50px !important;
+}
+/* Aşağı'dan İç Boşluk */
+.pas-1{
+    padding-bottom: 10px !important;
+}
+.pas-2{
+    padding-bottom: 20px !important;
+}
+.pas-3{
+    padding-bottom: 30px !important;
+}
+.pas-4{
+    padding-bottom: 40px !important;
+}
+.pas-5{
+    padding-bottom: 50px !important;
+}

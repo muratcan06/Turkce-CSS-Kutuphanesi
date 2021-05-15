@@ -1,0 +1,40 @@
+.tablo{
+    border-collapse: collapse !important;
+    min-width: 60vw !important;
+}
+.tablo-koyu{
+    background-color: #333 !important;
+    color: white !important;
+}
+.tablo-acik{
+    background-color: #f2f2f2 !important;
+    color: #333 !important;
+}
+.tablo-baslik{
+    text-align: left !important;
+}
+th{
+    height: 30px;
+}
+.tablo-baslik-koyu{
+    background-color: #333 !important;
+    color: white;
+}
+.tablo-baslik-acik{
+    background-color: #ccc !important;
+    color: #333;
+}
+.tablo-baslik-birincil{
+    background-color: #007fbd !important;
+    color: white;
+}
+.tablo-govde{
+    border: 1px solid #ccc !important;
+}
+.tablo-satir{
+    border: 1px solid #ccc !important;
+}
+.tablo-eleman{
+    border: 1px solid #ccc !important;
+    padding: 10px;
+}

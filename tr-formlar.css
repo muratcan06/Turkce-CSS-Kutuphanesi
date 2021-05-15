@@ -1,0 +1,48 @@
+.form-grubu{
+    width: 100% !important;
+}
+.form-kontrol{
+    outline: 0 !important;
+    width: 100% !important;
+    padding: 5px;
+    margin: 5px 0px;
+    border: 1px solid #2754ba !important;
+    border-radius: 5px !important;
+    font-size: 0.95em !important;
+}
+.form-kontrol:focus{
+    border: 2px solid #2754ba !important;
+}
+.form-btn{
+    width: 10rem !important;
+    padding: 5px;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    border: 2px solid #11862f !important;
+    background-color: #11862f !important;
+    color: white !important;
+}
+.form-btn:active{
+    background-color: #009f4d !important;
+    border: 2px solid #009f4d !important;
+}
+.form-blok-btn{
+    padding: 5px;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    border: 2px solid #11862f !important;
+    background-color: #11862f !important;
+    color: white !important;
+    width: 100% !important;
+}
+.form-blok-btn:active{
+    background-color: #009f4d !important;
+    border: 2px solid #009f4d !important;
+}
+.form-select-kontrol{
+    min-width: 8rem !important;
+    outline: 0 !important;
+    border-radius: 5px;
+    border: 1px solid #2754ba !important;
+    padding: 2px;
+}

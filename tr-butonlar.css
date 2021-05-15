@@ -1,0 +1,55 @@
+.btn{
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #f2f2f2;
+}
+.btn-koyu{
+    border: 1px solid #333 !important;
+    background-color: #333 !important;
+    color: white !important;
+}
+.btn-koyu:active{
+    opacity: .9;
+}
+.btn-birincil{
+    border: 1px solid #007fbd !important;
+    background-color: #007fbd !important;
+    color: white !important;
+}
+.btn-birincil:active{
+    opacity: .9;
+}
+.btn-ikincil{
+    border: 1px solid #a5acaf !important;
+    background-color: #a5acaf !important;
+    color: white !important;
+}
+.btn-ikincil:active{
+    opacity: .9;
+}
+.btn-uyari{
+    border: 1px solid #ffb310 !important;
+    background-color: #ffb310 !important;
+    color: white !important;
+}
+.btn-uyari:active{
+    opacity: .7;
+}
+.btn-bilgi{
+    border: 1px solid #2754ba !important;
+    background-color: #2754ba !important;
+    color: white !important;
+}
+.btn-bilgi:active{
+    opacity: .9;
+}
+.btn-hata{
+    border: 1px solid #de0f17 !important;
+    background-color: #de0f17 !important;
+    color: white !important;
+}
+.btn-hata:active{
+    opacity: .8;
+}

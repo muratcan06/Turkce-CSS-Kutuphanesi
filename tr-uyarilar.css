@@ -1,0 +1,22 @@
+.uyari{
+    background-color: #ccc;
+    padding: 15px !important;
+    margin: 15px;
+    border-radius: 2px;
+}
+.uyari-bilgi{
+    background-color: #A3D1F9;
+    color: #004d73;
+}
+.uyari-sari{
+    background-color: #FFF3CD;
+    color: #cc951f;
+}
+.uyari-hata{
+    background-color: #F8D7DA;
+    color: #6d0505;
+}
+.uyari-basarili{
+    background-color: #D4EDDA;
+    color: #125d05;
+}

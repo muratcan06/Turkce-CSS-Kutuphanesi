@@ -1,0 +1,72 @@
+@import url("tr-boyutlandirma.css");
+@import url("tr-formlar.css");
+@import url("tr-bosluklar.css");
+@import url("tr-butonlar.css");
+@import url("tr-uyarilar.css");
+@import url("tr-yazilar.css");
+@import url("tr-menuler.css");
+@import url("tr-tablolar.css");
+@import url("tr-izgara.css");
+@import url("tr-flexbox.css");
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Renklendirme İşlemleri */
+a{
+    text-decoration: none;
+    color: unset;
+}
+.renk-koyu{
+    color: #333 !important;
+}
+.renk-acik{
+    color: #fff !important;
+}
+.renk-birincil{
+    color: #0077c8 !important;
+}
+.renk-ikincil{
+    color: #9f9fa3 !important;
+}
+.renk-basarili{
+    color: #00ad45 !important;
+}
+.renk-uyari{
+    color: #ff9900 !important;
+}
+.renk-hata{
+    color: #ce181e !important;
+}
+.renk-bilgi{
+    color: #004d73 !important;
+}
+
+/* Arkaplan Renklendirme */
+
+.ap-koyu{
+    background-color: #333 !important;
+}
+.ap-acik{
+    background-color: #f2f2f2 !important;
+}
+.ap-birincil{
+    background-color: #007fbd !important;
+}
+.ap-ikincil{
+    background-color: #a5acaf !important;
+}
+.ap-basarili{
+    background-color: #00ad45 !important;
+}
+.ap-uyari{
+    background-color: #ffb310 !important;
+}
+.ap-hata{
+    background-color: #de0f17 !important;
+}
+.ap-bilgi{
+    background-color: #2754ba !important;
+}

@@ -1,0 +1,24 @@
+.g-flex{
+    display: flex !important;
+}
+.yon-satir{ /* Bu özellik kullanıldığı zaman genislik-ortala
+    ve yukselik-ortala'nın görevleri birbiri ile yer 
+    değiştirir. */
+    flex-direction: column !important;
+}
+.yon-sutun{
+    flex-direction: row; /* g-flex Özelliği kullanıldığı zaman
+    bu özellik varsayılanda gelir. */
+}
+.genislik-ortala{
+    justify-content: center !important;
+}
+.yukseklik-ortala{
+    align-items: center !important;
+}
+.kendi-yukseklik-ortala{
+    align-self: center !important;
+}
+.kendi-genislik-ortala{
+    justify-self: center !important;
+}

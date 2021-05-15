@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Türkçe CSS Kütüphanesi Kullanım Dökümantasyonu</title>
+        <link rel="stylesheet" href="tr-global.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="atla pyu-2 pas-1 yazi-ortala">
+            Atla : 
+            <a href="#boyutlandirma" class="msag-2">Boyutlandırma</a>
+            <a href="#yazi-stilleri" class="msag-2">Yazı Stilleri</a>
+            <a href="#bosluklar" class="msag-2">Boşluklar</a>
+            <a href="#renkler" class="msag-2">Renkler</a>
+            <a href="#uyarilar" class="msag-2">Uyarılar</a>
+            <a href="#menuler" class="msag-2">Menüler</a>
+            <a href="#butonlar" class="msag-2">Butonlar</a>
+            <a href="#flexbox" class="msag-2">Flexbox</a>
+            <a href="#formlar" class="msag-2">Formlar</a>
+            <a href="#tablolar" class="msag-2">Tablolar</a>
+            <a href="#izgara" class="msag-2">Izgara Sistemi</a>
+            <a href="#github" class="msag-2">Nasıl Kullanılır?</a>
+        </div>
+        <h2 class="text-center" id="boyutlandirma">Boyutlandırma</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.kont</td>
+                    <td>Verildiği kutuya 83vw'lik bir alan tanır.</td>
+                </tr>
+                <tr>
+                    <td>.kont-kucuk</td>
+                    <td>Verildiği kutuya 65vw'lik bir alan tanır.</td>
+                </tr>
+                <tr>
+                    <td>.kont-orta</td>
+                    <td>Verildiği kutuya 75vw'lik bir alan tanır.</td>
+                </tr>
+                <tr>
+                    <td>.kont-buyuk</td>
+                    <td>Verildiği kutuya 90vw'lik bir alan tanır.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="yazi-stilleri" class="text-center mt-3">Yazı Stilleri</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.baslik</td>
+                    <td>Verildiği elemanın font büyüklüğünü 2rem, font kalınlığını 560 yapar.</td>
+                </tr>
+                <tr>
+                    <td>.baslik-kucuk</td>
+                    <td>Verildiği elemanın font büyüklüğünü 1.75rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.baslik-orta</td>
+                    <td>Verildiği elemanın font büyüklüğünü 2rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.baslik-buyuk</td>
+                    <td>Verildiği elemanın font büyüklüğünü 3rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.yazi-kucuk</td>
+                    <td>Verildiği elemanın font büyüklüğünü 1.1rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.yazi-orta</td>
+                    <td>Verildiği elemanın font büyüklüğünü 1.65rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.yazi-buyuk</td>
+                    <td>Verildiği elemanın font büyüklüğünü 2rem yapar.</td>
+                </tr>
+                <tr>
+                    <td>.yazi-ortala</td>
+                    <td>Verildiği elemanın içindeki yazıyı ortalar.</td>
+                </tr>
+                <tr>
+                    <td>.buyuk-harf</td>
+                    <td>Verildiği elemanın içindeki yazının tüm harflerini büyük yapar.</td>
+                </tr>
+                <tr>
+                    <td>.kucuk-harf</td>
+                    <td>Verildiği elemanın içindeki yazının tüm harflerini küçük yapar.</td>
+                </tr>
+                <tr>
+                    <td>.basharf-buyuk</td>
+                    <td>Verildiği elemanın içindeki yazının tüm kelimelerinin baş harflerini büyük yapar.</td>
+                </tr>
+                <tr>
+                    <td>.kalin</td>
+                    <td>Verildiği elemanın içindeki yazıyı kalın yazar.</td>
+                </tr>
+                <tr>
+                    <td>.normal</td>
+                    <td>Verildiği elemanın içindeki yazının font kalınlığını 550 yapar.</td>
+                </tr>
+                <tr>
+                    <td>.italik</td>
+                    <td>Verildiği elemanın içindeki yazıyı italik yapar.</td>
+                </tr>
+                <tr>
+                    <td>.sonuk</td>
+                    <td>Verildiği elemanın içindeki yazıyı sönük yapar. (opacity ile)</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="bosluklar" class="text-center mt-3">Boşluklar</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.m-1</td>
+                    <td>Verildiği elemanın margin(Dış Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.m-2</td>
+                    <td>Verildiği elemanın margin(Dış Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.m-3</td>
+                    <td>Verildiği elemanın margin(Dış Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.m-4</td>
+                    <td>Verildiği elemanın margin(Dış Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.m-5</td>
+                    <td>Verildiği elemanın margin(Dış Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msag-1</td>
+                    <td>Verildiği elemanın margin-right(Sağdan Dış Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msag-2</td>
+                    <td>Verildiği elemanın margin-right(Sağdan Dış Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msag-3</td>
+                    <td>Verildiği elemanın margin-right(Sağdan Dış Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msag-4</td>
+                    <td>Verildiği elemanın margin-right(Sağdan Dış Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msag-5</td>
+                    <td>Verildiği elemanın margin-right(Sağdan Dış Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msol-1</td>
+                    <td>Verildiği elemanın margin-left(Soldan Dış Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msol-2</td>
+                    <td>Verildiği elemanın margin-left(Soldan Dış Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msol-3</td>
+                    <td>Verildiği elemanın margin-left(Soldan Dış Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msol-4</td>
+                    <td>Verildiği elemanın margin-left(Soldan Dış Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.msol-5</td>
+                    <td>Verildiği elemanın margin-left(Soldan Dış Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.mas-1</td>
+                    <td>Verildiği elemanın margin-bottom(Aşağıdan Dış Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.mas-2</td>
+                    <td>Verildiği elemanın margin-bottom(Aşağıdan Dış Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.mas-3</td>
+                    <td>Verildiği elemanın margin-bottom(Aşağıdan Dış Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.mas-4</td>
+                    <td>Verildiği elemanın margin-bottom(Aşağıdan Dış Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.mas-5</td>
+                    <td>Verildiği elemanın margin-bottom(Aşağıdan Dış Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.myu-1</td>
+                    <td>Verildiği elemanın margin-top(Yukarıdan Dış Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.myu-2</td>
+                    <td>Verildiği elemanın margin-top(Yukarıdan Dış Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.myu-3</td>
+                    <td>Verildiği elemanın margin-top(Yukarıdan Dış Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.myu-4</td>
+                    <td>Verildiği elemanın margin-top(Yukarıdan Dış Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.myu-5</td>
+                    <td>Verildiği elemanın margin-top(Yukarıdan Dış Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.p-1</td>
+                    <td>Verildiği elemanın padding(İç Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.p-2</td>
+                    <td>Verildiği elemanın padding(İç Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.p-3</td>
+                    <td>Verildiği elemanın padding(İç Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.p-4</td>
+                    <td>Verildiği elemanın padding(İç Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.p-5</td>
+                    <td>Verildiği elemanın padding(İç Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psag-1</td>
+                    <td>Verildiği elemanın padding-right(Sağdan İç Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psag-2</td>
+                    <td>Verildiği elemanın padding-right(Sağdan İç Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psag-3</td>
+                    <td>Verildiği elemanın padding-right(Sağdan İç Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psag-4</td>
+                    <td>Verildiği elemanın padding-right(Sağdan İç Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psag-5</td>
+                    <td>Verildiği elemanın padding-right(Sağdan İç Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psol-1</td>
+                    <td>Verildiği elemanın padding-left(Soldan İç Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psol-2</td>
+                    <td>Verildiği elemanın padding-left(Soldan İç Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psol-3</td>
+                    <td>Verildiği elemanın padding-left(Soldan İç Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psol-4</td>
+                    <td>Verildiği elemanın padding-left(Soldan İç Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.psol-5</td>
+                    <td>Verildiği elemanın padding-left(Soldan İç Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pyu-1</td>
+                    <td>Verildiği elemanın padding-top(Yukarıdan İç Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pyu-2</td>
+                    <td>Verildiği elemanın padding-top(Yukarıdan İç Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pyu-3</td>
+                    <td>Verildiği elemanın padding-top(Yukarıdan İç Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pyu-4</td>
+                    <td>Verildiği elemanın padding-top(Yukarıdan İç Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pyu-5</td>
+                    <td>Verildiği elemanın padding-top(Yukarıdan İç Boşluk) değerini 50px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pas-1</td>
+                    <td>Verildiği elemanın padding-bottom(Aşağıdan İç Boşluk) değerini 10px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pas-2</td>
+                    <td>Verildiği elemanın padding-bottom(Aşağıdan İç Boşluk) değerini 20px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pas-3</td>
+                    <td>Verildiği elemanın padding-bottom(Aşağıdan İç Boşluk) değerini 30px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pas-4</td>
+                    <td>Verildiği elemanın padding-bottom(Aşağıdan İç Boşluk) değerini 40px yapar.</td>
+                </tr>
+                <tr>
+                    <td>.pas-5</td>
+                    <td>Verildiği elemanın padding-bottom(Aşağıdan İç Boşluk) değerini 50px yapar.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="renkler" class="text-center mt-3">Renkler</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.renk-koyu</td>
+                    <td>Verildiği elemanın yazısının rengini koyu bir renk haline getirir.</td>
+                </tr>
+                <tr>
+                    <td>.renk-acik</td>
+                    <td>Verildiği elemanın yazısının rengini beyaz yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-birincil</td>
+                    <td>Verildiği elemanın yazısının rengini mavinin tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-ikincil</td>
+                    <td>Verildiği elemanın yazısının rengini gri yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-basarili</td>
+                    <td>Verildiği elemanın yazısının rengini yeşilin tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-uyari</td>
+                    <td>Verildiği elemanın yazısının rengini sarının tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-hata</td>
+                    <td>Verildiği elemanın yazısının rengini kırmızının tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.renk-bilgi</td>
+                    <td>Verildiği elemanın yazısının rengini mavinin tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-koyu</td>
+                    <td>Verildiği elemanın arkaplan rengini koyu bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-acik</td>
+                    <td>Verildiği elemanın arkaplan rengini açık bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-birincil</td>
+                    <td>Verildiği elemanın arkaplan rengini mavi tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-ikincil</td>
+                    <td>Verildiği elemanın arkaplan rengini gri tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-basarili</td>
+                    <td>Verildiği elemanın arkaplan rengini yeşil tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-uyari</td>
+                    <td>Verildiği elemanın arkaplan rengini sarı tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-hata</td>
+                    <td>Verildiği elemanın arkaplan rengini kırmızı tonlarında bir renk yapar.</td>
+                </tr>
+                <tr>
+                    <td>.ap-bilgi</td>
+                    <td>Verildiği elemanın arkaplan rengini mavi tonlarında bir renk yapar.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="uyarilar" class="text-center mt-3">Uyarılar</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.uyari (Gerekli.)</td>
+                    <td>Verildiği elemanın uyarı kutucuğu olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.uyari-bilgi</td>
+                    <td>Verildiği elemanın uyarısının bir bilgilendirme kutusu olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.uyari-sari</td>
+                    <td>Verildiği elemanın uyarısının sarının tonlarında bir uyarı olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.uyari-hata</td>
+                    <td>Verildiği elemanın uyarısının bir hata kutucuğu olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.uyari-basarili</td>
+                    <td>Verildiği elemanın uyarı kutucuğunu yeşilin tonlarında bir renk yapar.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="menuler" class="text-center mt-3">Menüler</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.nav-yatay (Gerekli.)</td>
+                    <td>Verildiği elemanın width özelliğini 100vw, display özelliğini flex yapar, <b>yatay</b> menünün temelini oluşturur.</td>
+                </tr>
+                <tr>
+                    <td>.liste-sembolu-yok</td>
+                    <td>Verildiği elemanın list-style özelliğini etkisiz hale getirir.</td>
+                </tr>
+                <tr>
+                    <td>.kont-yatay-menu (Gerekli.)</td>
+                    <td>Verildiği elemanın width özelliğini 83vw yapar Logo'yu ve Liste elemanlarının pozisyonunu belirler.</td>
+                </tr>
+                <tr>
+                    <td>.menu-yatay (Gerekli.)</td>
+                    <td>Verildiği elemanın liste elemanlarını yükseklik oranından ortalar.</td>
+                </tr>
+                <tr>
+                    <td>.menu-elemani (Gerekli.)</td>
+                    <td>Verildiği eleman(ların) birbiri arasındaki boşluklarını ayarlar.</td>
+                </tr>
+                <tr>
+                    <td>.resim-menu-yatay (Gerekli.)</td>
+                    <td>Verildiği image elemanının pozisyonunu ve boyutunu <b>yatay</b> menü ile optimize eder</td>
+                </tr>
+                <tr>
+                    <td>.nav-dikey (Gerekli.)</td>
+                    <td>Verildiği elemanın maksimum genişliğini 12rem yapar, <b>dikey</b> menünün temellerini oluşturur</td>
+                </tr>
+                <tr>
+                    <td>.kont-dikey-menu (Gerekli.)</td>
+                    <td>Verildiği elemanın height değerlerini ayarlar ve liste elemanları için uygun ortamı oluşturur.</td>
+                </tr>
+                <tr>
+                    <td>.menu-dikey (Gerekli.)</td>
+                    <td>Verildiği elemanın içindeki liste elemanlarının konumlarını belirler.</td>
+                </tr>
+                <tr>
+                    <td>.menu-elemani-dikey (Gerekli.)</td>
+                    <td>Verildiği menü elemanının görünüşünü oluşturur.</td>
+                </tr>
+                <tr>
+                    <td>.resim-menu-dikey (Gerekli.)</td>
+                    <td>Verildiği image elemanının <b>dikey</b> menü ile optimize olmasını sağlar.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="butonlar" class="text-center mt-3">Butonlar</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.btn (Gerekli.)</td>
+                    <td>Verildiği eleman'a buton özelliklerinin temelini verir.</td>
+                </tr>
+                <tr>
+                    <td>.btn-koyu</td>
+                    <td>Verildiği elemanı koyu renkli bir buton haline getirir.</td>
+                </tr>
+                <tr>
+                    <td>.btn-birincil</td>
+                    <td>Verildiği elemanı mavi renkte bir buton haline getirir.</td>
+                </tr>
+                <tr>
+                    <td>.btn-ikincil</td>
+                    <td>Verildiği elemanı gri renkte bir buton haline getirir.</td>
+                </tr>
+                <tr>
+                    <td>.btn-uyari</td>
+                    <td>Verildiği elemanı kırmızı bir buton haline getirir</td>
+                </tr>
+                <tr>
+                    <td>.btn-bilgi</td>
+                    <td>Verildiği elemanı mavinin tonlarında bir renkte buton haline getirir</td>
+                </tr>
+                <tr>
+                    <td>.btn-hata</td>
+                    <td>Verildiği elemanı sarı renginde bir buton haline getirir</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="flexbox" class="text-center mt-3">Flexbox</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.g-flex (Gerekli.)</td>
+                    <td>Verildiği elemanın display özelliğini flex haline getirir.</td>
+                </tr>
+                <tr>
+                    <td>.yon-satir</td>
+                    <td>Verildiği elemanın içindeki elemanların sıralanmasını satırlara göre ayarlar (flex-direction: column;).</td>
+                </tr>
+                <tr>
+                    <td>.yon-sutun</td>
+                    <td>Verildiği elemanın içindeki elemanların sıralanmasını sütünlara göre ayarlar.</td>
+                </tr>
+                <tr>
+                    <td>.genislik-ortala</td>
+                    <td>Verildiği elemanın içindeki elemanların genişliğe göre ortalanmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.yukseklik-ortala</td>
+                    <td>Verildiği elemanın içindeki elemanların yüksekliğe göre ortalanmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.kendi-yukseklik-ortala</td>
+                    <td>Verildiği elemanı yüksekliğe göre ortalar.</td>
+                </tr>
+                <tr>
+                    <td>.kendi-genislik-ortala</td>
+                    <td>Verildiği elemanı genişliğe göre ortalar.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="formlar" class="text-center mt-3">Formlar</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.form-grubu</td>
+                    <td>Verildiği elemanın width özelliğini 100% yapar.</td>
+                </tr>
+                <tr>
+                    <td>.form-kontrol</td>
+                    <td>Verildiği input elemanının temel şekillendirmesini yapar, butonlara uygulanması <b>tavsiye edilmez.</b></td>
+                </tr>
+                <tr>
+                    <td>.form-btn</td>
+                    <td>Verildiği buton inputunun şekillenmesini sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.form-blok-btn</td>
+                    <td>Verildiği buton inputunun tüm alanı kaplamasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.form-select-kontrol</td>
+                    <td>Select elemanının şekillenmesini sağlar.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="tablolar" class="text-center mt-3">Tablolar</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.tablo (Gerekli)</td>
+                    <td>Tablo elemanının şekillendirilmesine ve iskeletinin oluşmasına olanak sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-koyu</td>
+                    <td>Verilen tablonun renginin koyu olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-acik</td>
+                    <td>Verilen tablonun renginin açık bir renkte olmasını sağlar.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-baslik (Gerekli.)</td>
+                    <td>Tablonun Thead etiketine uygulanması gerekir, başlıkları şekillendirir.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-baslik-koyu</td>
+                    <td>Verilen Thead etiketini koyu bir renke çevirir.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-baslik-acik</td>
+                    <td>Verilen Thead etiketini açık bir renke çevirir.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-baslik-birincil</td>
+                    <td>Verilen Thead etiketini mavimsi bir renke çevirir.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-govde</td>
+                    <td>Tbody etiketine verilmesi gerekir, dış kenarlıkları oluşturarak tabloyu belirgin hale getirir.</td>
+                </tr>
+                <tr>
+                    <td>.tablo-eleman (Gerekli.)</td>
+                    <td>Td etiketlerine verilmesi gerekir, elemanları daha belirgin hale getirir.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="izgara" class="text-center mt-3">Izgara Sistemi</h2>
+        <table class="table" style="width: 73vw !important; margin: 0 auto;">
+            <thead class="thead bg-dark text-white">
+                <th>Özellik</th>
+                <th>Görev</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.row</td>
+                    <td>Yeni bir satır oluşturur.</td>
+                </tr>
+                <tr>
+                    <td>.col</td>
+                    <td>Satır'a sığan, sığmazsa da aşağı kayan bir eleman olanağı tanır.</td>
+            </tbody>
+        </table>
+        <div id="github" class="yazi-ortala myu-2 ap-koyu renk-acik">
+            <h4>Nasıl Kullanılır?</h4>
+            Öncelikle GITHUB <a href="https://github.com/MuratcanYanik" target="_blank">hesabımdan</a> <a href="">projeye</a> göz atmayı unutmayınız.<br>
+            Kütüphaneyi kullanabilmeniz için tek yapmanız gereken tr-global.css dosyasını dahil etmektir,
+            diğer dosyalar otomatik olarak tr-global.css içindedir.<br>
+            <i class="sonuk">Projenizde kolaylıklar dilerim.</i>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    </body>
+</html>

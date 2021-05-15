@@ -1,0 +1,13 @@
+/* Konteyner Boyutlandırmaları */
+.kont{
+    width: 83vw !important;
+}
+.kont-kucuk{
+    width: 65vw !important;
+}
+.kont-orta{
+    width: 75vw !important;
+}
+.kont-buyuk{
+    width: 90vw !important;
+}

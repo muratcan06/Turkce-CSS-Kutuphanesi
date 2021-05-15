@@ -1,0 +1,46 @@
+.baslik{
+    font-size: 2rem;
+    font-weight: 560;
+}
+.baslik-kucuk{
+    font-size: 1.75rem;
+}
+.baslik-orta{
+    font-size: 2rem;
+}
+.baslik-buyuk{
+    font-size: 3rem;
+}
+.yazi-kucuk{
+    font-size: 1.1rem;
+}
+.yazi-orta{
+    font-size: 1.65rem;
+}
+.yazi-buyuk{
+    font-size: 2rem;
+}
+.yazi-ortala{
+    text-align: center !important;
+}
+.buyuk-harf{
+    text-transform: uppercase;
+}
+.kucuk-harf{
+    text-transform: lowercase;
+}
+.basharf-buyuk{
+    text-transform: capitalize;
+}
+.kalin{
+    font-weight: bolder;
+}
+.normal{
+    font-weight: 550;
+}
+.italik{
+    font-style: italic;
+}
+.sonuk{
+    opacity: .6;
+}
